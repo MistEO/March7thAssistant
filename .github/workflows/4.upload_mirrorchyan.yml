@@ -4,7 +4,6 @@ name: Upload Release to MirrorChyan
 on:
   workflow_dispatch:
   release:
-    types: [published]
 
 jobs:
   mirrorchyan:
