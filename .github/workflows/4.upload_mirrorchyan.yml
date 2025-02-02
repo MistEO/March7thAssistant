@@ -22,6 +22,7 @@ jobs:
           out-file-path: "downloads"
           extract: false
 
+      # 上传到 Mirror酱
       - name: Upload to MirrorChyan
         run: |
           curl --location --request POST 'https://mirrorc.top/api/resources/${{ github.event.repository.name }}/versions' \
