@@ -19,7 +19,7 @@ jobs:
           repository: moesnow/March7thAssistant
           fileName: "*full.7z"
           latest: true
-          out-file-path: "March7thAssistant"
+          out-file-path: "downloads"
           extract: false
 
       - name: Upload to MirrorChyan
